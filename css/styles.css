@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .list {
@@ -116,7 +116,6 @@ body {
     color: var(--first-accent-color);
 }
 
-
 .hero {
     background-color: var(--second-background-color);
 }
@@ -176,6 +175,12 @@ body {
     padding-top: 94px;
     padding-bottom: 47px;
 }
+
+/* .features-list {
+                display: flex;
+            justify-content: center;
+            margin-right: 30px;
+        } */
 
 .features-title {
     font-weight: 700;
@@ -295,6 +300,15 @@ body {
     color: var(--third-text-color);
 }
 
+/* .filters-list {
+    display: flex;
+    justify-content: center;
+} */
+
+.filters-item {
+    margin-left: 8px;
+}
+
 .filters-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -306,12 +320,27 @@ body {
     cursor: pointer;
     color: var(--first-text-color);
     background-color: var(--third-background-color);
+    padding: 6px 22px;
+    margin-bottom: 50px;
+    border-radius: 4px;
 }
 
 .filters-btn:hover,
 .filters-btn:focus {
     color: var(--third-text-color);
     background-color: var(--first-accent-color);
+}
+
+.work {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.work-list {
+    padding-left: 0;
+    padding-right: 0;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .work-title {
@@ -321,10 +350,13 @@ body {
     letter-spacing: 0.06em;
     color: var(--first-text-color);
 }
-
 .work-text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
+
+/* .work-item {
+    margin-right: 30px;
+} */
