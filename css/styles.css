@@ -46,7 +46,6 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
 }
 
 .list {
@@ -72,7 +71,6 @@ body {
 .header-list {
     display: flex;
 }
-
 
 .header-logo {
     font-family: 'Raleway';
@@ -388,7 +386,6 @@ body {
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-
 }
 
 .work-item {
@@ -396,7 +393,6 @@ body {
     margin-top: 30px;
     flex-basis: calc((100% - 3*30px) / 3);
     background-color: #fff;
-
 }
 
 .work-title {
@@ -417,4 +413,6 @@ body {
 .work-content {
     background: var(--first-background-color);
     border: 1px solid #EEEEEE;
+    border-top: transparent;
+    padding: 20px 24px;
 }
