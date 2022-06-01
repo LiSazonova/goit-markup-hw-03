@@ -57,8 +57,6 @@ body {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
     margin-bottom: 0;
     border-bottom: 1px solid #ECECEC
 }
@@ -80,9 +78,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    }
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .logo-accent {
     color: var(--first-accent-color);
@@ -100,7 +98,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--first-text-color);
     padding-top: 32px;
-        padding-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -124,7 +122,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     padding-top: 32px;
-        padding-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .header-mail:hover,
@@ -144,8 +142,8 @@ body {
 .hero {
     background-color: var(--second-background-color);
     padding-top: 200px;
-        padding-bottom: 200px;
-        text-align: center;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero-title {
@@ -252,7 +250,7 @@ body {
 .team {
     background-color: var(--third-background-color);
     padding-top: 94px;
-        padding-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -280,7 +278,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
-        margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -375,7 +373,7 @@ body {
     color: var(--first-text-color);
     background-color: var(--third-background-color);
     padding: 6px 22px;
-        border-radius: 4px;
+    border-radius: 4px;
 }
 
 .filters-btn:hover,
